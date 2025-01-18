@@ -9,6 +9,7 @@ Given an ADO org and Project, analyze commit history to summarize a user's activ
 
 # Getting started
 ```powershell
+az login
 python -m venv .venv
 .\.venv\\Scripts\Activate.ps1
 pip install -r requirements.txt
@@ -16,7 +17,6 @@ pip install -r requirements.txt
 
 Create a .env file with:
 ```text
-ADO_PAT=<your ADO PAT goes here>
 ADO_ORG=<org name>
 ADO_PROJECT=<project name>
 ```
