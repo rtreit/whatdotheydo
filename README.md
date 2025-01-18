@@ -9,7 +9,7 @@ Given an ADO org and Project, analyze commit history to summarize a user's activ
 
 # Getting started
 ```powershell
-python -m venv .env
+python -m venv .venv
 .\.venv\\Scripts\Activate.ps1
 pip install -r requirements.txt
 ```
