@@ -1,0 +1,8 @@
+requests
+jupyter
+aiohttp
+pandas
+seaborn
+python-dotenv
+azure-identity
+
